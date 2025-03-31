@@ -16,5 +16,5 @@ https://github.com/OlivierKouokam/PayMyBuddy/
      - Créez un service de type nodeport pour exposer le frontend wordpress
 - Nous vous conseillons d’utiliser les manifests pour réaliser cet exercice
 - A la fin de votre travail, poussez vos manifests sur github et envoyez nous le lien de votre repo à
-eazytrainingfr@gmail.com et nous vous dirons si votre solution respecte les bonnes pratiques et si votre solution
+contact@eazytraining.fr et nous vous dirons si votre solution respecte les bonnes pratiques et si votre solution
 bonne. Nous vous proposerons aussi notre solution/
