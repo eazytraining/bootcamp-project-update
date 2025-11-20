@@ -10,11 +10,11 @@ https://github.com/OlivierKouokam/PayMyBuddy/
 
 - Déployez PayMyBuddy en suivant les étapes suivantes
      - Créez un deployment mysql avec un seul replicat
+     - Votre deployment devra stocker les données mysql de PayMyBuddy sur un voulme mounté dans le /data/mysql de votre nœud
      - Créez un service de type clusterIP pour exposer vos pods mysql
      - Créez un deployment paymybuddy avec les bonnes variables d’environnement pour se connecter à la base de données mysql. Vous trouverez les variables d'environnement nécessaire dans ce fichier: https://github.com/OlivierKouokam/PayMyBuddy/blob/main/Dockerfile
-     - Votre deployment devra stocker les données PayMyBuddy sur un volme mounté dans le /data de votre nœud
-     - Créez un service de type nodeport pour exposer le frontend wordpress
+     - Créez un service de type nodeport pour exposer le déployment paymybuddy
 - Nous vous conseillons d’utiliser les manifests pour réaliser cet exercice
 - A la fin de votre travail, poussez vos manifests sur github et envoyez nous le lien de votre repo à
-eazytrainingfr@gmail.com et nous vous dirons si votre solution respecte les bonnes pratiques et si votre solution
+contact@eazytraining.fr et nous vous dirons si votre solution respecte les bonnes pratiques et si votre solution
 bonne. Nous vous proposerons aussi notre solution/
